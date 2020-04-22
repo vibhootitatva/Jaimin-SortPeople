@@ -27,6 +27,7 @@
 		6F424CB324502A6C0071A168 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA824502A6C0071A168 /* ic_skip@3x.png */; };
 		6F424CB424502A6C0071A168 /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA924502A6C0071A168 /* overlay_like.png */; };
 		6F424CB524502A6C0071A168 /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CAA24502A6C0071A168 /* overlay_skip.png */; };
+		6F424CB724504F680071A168 /* FullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424CB624504F680071A168 /* FullView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		6F424CA824502A6C0071A168 /* ic_skip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_skip@3x.png"; sourceTree = "<group>"; };
 		6F424CA924502A6C0071A168 /* overlay_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_like.png; sourceTree = "<group>"; };
 		6F424CAA24502A6C0071A168 /* overlay_skip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_skip.png; sourceTree = "<group>"; };
+		6F424CB624504F680071A168 /* FullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				6F424C82244FFE340071A168 /* AppDelegate.swift */,
 				6F424C84244FFE340071A168 /* SceneDelegate.swift */,
 				6F424C86244FFE340071A168 /* PeopleViewController.swift */,
+				6F424CB624504F680071A168 /* FullView.swift */,
 				6F424C96245005E60071A168 /* StatisticsViewController.swift */,
 				6F424C88244FFE340071A168 /* Main.storyboard */,
 				6F424C8B244FFE3F0071A168 /* Assets.xcassets */,
@@ -226,6 +229,7 @@
 				6F424C97245005E60071A168 /* StatisticsViewController.swift in Sources */,
 				6F424CAD24502A6C0071A168 /* TinderSwipeView.swift in Sources */,
 				6F424C87244FFE340071A168 /* PeopleViewController.swift in Sources */,
+				6F424CB724504F680071A168 /* FullView.swift in Sources */,
 				6F424C83244FFE340071A168 /* AppDelegate.swift in Sources */,
 				6F424CAB24502A6C0071A168 /* TinderCard.swift in Sources */,
 				6F424C85244FFE340071A168 /* SceneDelegate.swift in Sources */,
