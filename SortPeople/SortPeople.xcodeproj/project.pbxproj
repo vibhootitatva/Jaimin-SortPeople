@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		6F424C83244FFE340071A168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424C82244FFE340071A168 /* AppDelegate.swift */; };
 		6F424C85244FFE340071A168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424C84244FFE340071A168 /* SceneDelegate.swift */; };
-		6F424C87244FFE340071A168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424C86244FFE340071A168 /* ViewController.swift */; };
+		6F424C87244FFE340071A168 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424C86244FFE340071A168 /* PeopleViewController.swift */; };
 		6F424C8A244FFE340071A168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F424C88244FFE340071A168 /* Main.storyboard */; };
 		6F424C8C244FFE3F0071A168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F424C8B244FFE3F0071A168 /* Assets.xcassets */; };
 		6F424C8F244FFE3F0071A168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F424C8D244FFE3F0071A168 /* LaunchScreen.storyboard */; };
+		6F424C97245005E60071A168 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424C96245005E60071A168 /* StatisticsViewController.swift */; };
+		6F424C9A24500A850071A168 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F424C9924500A850071A168 /* ContactsUI.framework */; };
+		6F424C9C24500A940071A168 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F424C9B24500A940071A168 /* Contacts.framework */; };
+		6F424CAB24502A6C0071A168 /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424C9F24502A6C0071A168 /* TinderCard.swift */; };
+		6F424CAC24502A6C0071A168 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA024502A6C0071A168 /* .gitkeep */; };
+		6F424CAD24502A6C0071A168 /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F424CA124502A6C0071A168 /* TinderSwipeView.swift */; };
+		6F424CAE24502A6C0071A168 /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA324502A6C0071A168 /* overlay_skip@3x.png */; };
+		6F424CAF24502A6C0071A168 /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA424502A6C0071A168 /* overlay_like@3x.png */; };
+		6F424CB024502A6C0071A168 /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA524502A6C0071A168 /* ic_skip@2x.png */; };
+		6F424CB124502A6C0071A168 /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA624502A6C0071A168 /* ic_like@3x.png */; };
+		6F424CB224502A6C0071A168 /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA724502A6C0071A168 /* ic_like@2x.png */; };
+		6F424CB324502A6C0071A168 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA824502A6C0071A168 /* ic_skip@3x.png */; };
+		6F424CB424502A6C0071A168 /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CA924502A6C0071A168 /* overlay_like.png */; };
+		6F424CB524502A6C0071A168 /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F424CAA24502A6C0071A168 /* overlay_skip.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F424C7F244FFE340071A168 /* SortPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F424C82244FFE340071A168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F424C84244FFE340071A168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F424C86244FFE340071A168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F424C86244FFE340071A168 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		6F424C89244FFE340071A168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F424C8B244FFE3F0071A168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F424C8E244FFE3F0071A168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F424C90244FFE3F0071A168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F424C96245005E60071A168 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		6F424C9924500A850071A168 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		6F424C9B24500A940071A168 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		6F424C9F24502A6C0071A168 /* TinderCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderCard.swift; sourceTree = "<group>"; };
+		6F424CA024502A6C0071A168 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		6F424CA124502A6C0071A168 /* TinderSwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinderSwipeView.swift; sourceTree = "<group>"; };
+		6F424CA324502A6C0071A168 /* overlay_skip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay_skip@3x.png"; sourceTree = "<group>"; };
+		6F424CA424502A6C0071A168 /* overlay_like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay_like@3x.png"; sourceTree = "<group>"; };
+		6F424CA524502A6C0071A168 /* ic_skip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_skip@2x.png"; sourceTree = "<group>"; };
+		6F424CA624502A6C0071A168 /* ic_like@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_like@3x.png"; sourceTree = "<group>"; };
+		6F424CA724502A6C0071A168 /* ic_like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_like@2x.png"; sourceTree = "<group>"; };
+		6F424CA824502A6C0071A168 /* ic_skip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_skip@3x.png"; sourceTree = "<group>"; };
+		6F424CA924502A6C0071A168 /* overlay_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_like.png; sourceTree = "<group>"; };
+		6F424CAA24502A6C0071A168 /* overlay_skip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_skip.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F424C9A24500A850071A168 /* ContactsUI.framework in Frameworks */,
+				6F424C9C24500A940071A168 /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +72,7 @@
 			children = (
 				6F424C81244FFE340071A168 /* SortPeople */,
 				6F424C80244FFE340071A168 /* Products */,
+				6F424C9824500A850071A168 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,60 @@
 		6F424C81244FFE340071A168 /* SortPeople */ = {
 			isa = PBXGroup;
 			children = (
+				6F424C9D24502A6C0071A168 /* TinderSwipeView */,
 				6F424C82244FFE340071A168 /* AppDelegate.swift */,
 				6F424C84244FFE340071A168 /* SceneDelegate.swift */,
-				6F424C86244FFE340071A168 /* ViewController.swift */,
+				6F424C86244FFE340071A168 /* PeopleViewController.swift */,
+				6F424C96245005E60071A168 /* StatisticsViewController.swift */,
 				6F424C88244FFE340071A168 /* Main.storyboard */,
 				6F424C8B244FFE3F0071A168 /* Assets.xcassets */,
 				6F424C8D244FFE3F0071A168 /* LaunchScreen.storyboard */,
 				6F424C90244FFE3F0071A168 /* Info.plist */,
 			);
 			path = SortPeople;
+			sourceTree = "<group>";
+		};
+		6F424C9824500A850071A168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F424C9B24500A940071A168 /* Contacts.framework */,
+				6F424C9924500A850071A168 /* ContactsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F424C9D24502A6C0071A168 /* TinderSwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				6F424C9E24502A6C0071A168 /* Classes */,
+				6F424CA224502A6C0071A168 /* Resources */,
+			);
+			path = TinderSwipeView;
+			sourceTree = "<group>";
+		};
+		6F424C9E24502A6C0071A168 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6F424C9F24502A6C0071A168 /* TinderCard.swift */,
+				6F424CA024502A6C0071A168 /* .gitkeep */,
+				6F424CA124502A6C0071A168 /* TinderSwipeView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6F424CA224502A6C0071A168 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F424CA324502A6C0071A168 /* overlay_skip@3x.png */,
+				6F424CA424502A6C0071A168 /* overlay_like@3x.png */,
+				6F424CA524502A6C0071A168 /* ic_skip@2x.png */,
+				6F424CA624502A6C0071A168 /* ic_like@3x.png */,
+				6F424CA724502A6C0071A168 /* ic_like@2x.png */,
+				6F424CA824502A6C0071A168 /* ic_skip@3x.png */,
+				6F424CA924502A6C0071A168 /* overlay_like.png */,
+				6F424CAA24502A6C0071A168 /* overlay_skip.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +203,16 @@
 			files = (
 				6F424C8F244FFE3F0071A168 /* LaunchScreen.storyboard in Resources */,
 				6F424C8C244FFE3F0071A168 /* Assets.xcassets in Resources */,
+				6F424CB324502A6C0071A168 /* ic_skip@3x.png in Resources */,
+				6F424CB524502A6C0071A168 /* overlay_skip.png in Resources */,
 				6F424C8A244FFE340071A168 /* Main.storyboard in Resources */,
+				6F424CB224502A6C0071A168 /* ic_like@2x.png in Resources */,
+				6F424CB024502A6C0071A168 /* ic_skip@2x.png in Resources */,
+				6F424CB124502A6C0071A168 /* ic_like@3x.png in Resources */,
+				6F424CAF24502A6C0071A168 /* overlay_like@3x.png in Resources */,
+				6F424CAE24502A6C0071A168 /* overlay_skip@3x.png in Resources */,
+				6F424CB424502A6C0071A168 /* overlay_like.png in Resources */,
+				6F424CAC24502A6C0071A168 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F424C87244FFE340071A168 /* ViewController.swift in Sources */,
+				6F424C97245005E60071A168 /* StatisticsViewController.swift in Sources */,
+				6F424CAD24502A6C0071A168 /* TinderSwipeView.swift in Sources */,
+				6F424C87244FFE340071A168 /* PeopleViewController.swift in Sources */,
 				6F424C83244FFE340071A168 /* AppDelegate.swift in Sources */,
+				6F424CAB24502A6C0071A168 /* TinderCard.swift in Sources */,
 				6F424C85244FFE340071A168 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
