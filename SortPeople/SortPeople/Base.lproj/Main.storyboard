@@ -27,7 +27,7 @@
         <scene sceneID="foU-FY-qLG">
             <objects>
                 <viewController storyboardIdentifier="PeopleViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ne1-LV-npg" customClass="PeopleViewController" customModule="SortPeople" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="n3q-MK-yCS" userLabel="FullView" customClass="FullView">
+                    <view key="view" contentMode="scaleToFill" id="n3q-MK-yCS" userLabel="FullView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -44,12 +44,12 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcm-y7-QaC">
                                                 <rect key="frame" x="0.0" y="0.0" width="196" height="148"/>
                                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button" image="noButton"/>
+                                                <state key="normal" title="Dislike" image="noButton"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXt-gN-8LH">
                                                 <rect key="frame" x="196" y="0.0" width="196" height="148"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Button" image="yesButton"/>
+                                                <state key="normal" title="Like" image="yesButton"/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -77,6 +77,10 @@
                         <viewLayoutGuide key="safeArea" id="HQA-KH-xHE"/>
                     </view>
                     <navigationItem key="navigationItem" id="3by-QB-Ha3"/>
+                    <connections>
+                        <outlet property="bottomView" destination="G8s-5s-ZJ2" id="99n-4J-8Db"/>
+                        <outlet property="contentView" destination="ixr-B6-yo1" id="pMy-Oh-wCr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rKh-Ud-GZd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
