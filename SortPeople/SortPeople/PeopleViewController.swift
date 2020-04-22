@@ -19,7 +19,7 @@ class PeopleViewController: UIViewController {
         store.requestAccess(for: .contacts) { granted, error in
             guard granted else {
                 DispatchQueue.main.async {
-                    self.presentSettingsActionSheet()
+                    self.presentSettingsalert()
                 }
                 return
             }
@@ -45,7 +45,7 @@ class PeopleViewController: UIViewController {
         
         
     }
-    func presentSettingsActionSheet() {
+    func presentSettingsalert() {
         let alert = UIAlertController(title: "Permission to Contacts", message: "This app needs access to contacts in order to ...", preferredStyle:.alert)
         alert.addAction(UIAlertAction(title: "Go to Settings", style: .default) { _ in
             let url = URL(string: UIApplication.openSettingsURLString)!
